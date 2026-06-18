@@ -1,3 +1,6 @@
+![Azure](https://img.shields.io/badge/Azure-AI%20Foundry-blue) ![Python](https://img.shields.io/badge/Python-3.12-yellow) ![GitHub](https://img.shields.io/badge/GitHub-Portfolio-black) ![Status](https://img.shields.io/badge/AI--103-In%20Progress-green)
+
+
 # 🚀 AI-103 Learning Journey | Azure AI Foundry & Agent Development
 
 This repository documents my hands-on journey of preparing for the **Microsoft AI-103: Azure AI Application & Agent Developer Associate** certification.
