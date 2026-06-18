@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: AI-103 Walkthrough",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/ai_103_python_unit_1.py",
+            "console": "integratedTerminal",
+
+            "env": {
+                "AZURE_OPENAI_ENDPOINT": "https://anish0703unit1.openai.azure.com/openai/v1",
+                "AZURE_OPENAI_DEPLOYMENT_NAME": "gpt-4.1-mini"
+            }
+        }
+    ]
+}
