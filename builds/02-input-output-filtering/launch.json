@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: AI-103 Walkthrough",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/ai_103_python_unit_2.py",
+            "console": "integratedTerminal",
+            "python": "${workspaceFolder}/tutorials/bin/python",
+            "env": {
+                "AZURE_OPENAI_ENDPOINT": "https://anish0703unit2.services.ai.azure.com/openai/v1",
+                "AZURE_OPENAI_DEPLOYMENT_NAME": "tutorial_llm_unit_2",
+                "CONTENT_SAFETY_ENDPOINT": "https://anish0703unit2-csafety.cognitiveservices.azure.com/",
+                "AZURE_OPENAI_API_KEY" : "Your Api key"
+            }
+        }
+    ]
+}
