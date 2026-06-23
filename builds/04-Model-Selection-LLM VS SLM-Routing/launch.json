@@ -1,0 +1,30 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: AI-103 Build 04 - LLM vs SLM Routing",
+            "type": "debugpy",
+            "request": "launch",
+
+            "program": "${workspaceFolder}/ai_103_python_unit_4.py",
+
+            "console": "integratedTerminal",
+
+            "python": "${workspaceFolder}/tutorials/bin/python",
+
+            "env": {
+                "AZURE_OPENAI_ENDPOINT": "https://anish0703build4.services.ai.azure.com/openai/v1",
+
+                "LLM_MODEL_DEPLOYMENT_NAME": "anish0703build4-llm-deploy",
+
+                "SLM_MODEL_DEPLOYMENT_NAME": "anish0703build4-slm-deploy",
+
+                "CONTENT_SAFETY_ENDPOINT": "https://anish0703build4-csafety.cognitiveservices.azure.com/",
+
+                "USER_NAME": "Bobby",
+
+                "USER_ROLE": "Customer"
+            }
+        }
+    ]
+}

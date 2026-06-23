@@ -1,19 +1,57 @@
-# Python
-tutorials/
-__pycache__/
+```gitignore
+#################################################
+# 🐍 Python
+#################################################
+
+# Virtual environments (ignore anywhere in repo)
+**/tutorials/
+venv/
+
+# Python cache
+**/__pycache__/
 *.pyc
 
-# VS Code
-.vscode/
+#################################################
+# 🖥️ VS Code
+#################################################
 
-# macOS
+# Ignore all local VS Code settings
+**/.vscode/
+
+#################################################
+# 🍎 macOS
+#################################################
+
 .DS_Store
 
-# Environment files
-.env
+#################################################
+# 🔐 Environment Variables & Secrets
+#################################################
 
-# Temporary Microsoft Office files
+.env
+.env.*
+
+*.key
+*.pem
+
+#################################################
+# 📄 Temporary Office Files
+#################################################
+
 ~$*
 
-# Ignore local study documents
+#################################################
+# 📚 Local Study Documents
+#################################################
+
 AI-103_Master_Exam_Bible_Anish.docx
+
+#################################################
+# 🚫 Optional Large Files (uncomment if needed)
+#################################################
+
+# *.zip
+# *.csv
+# *.xlsx
+# *.pptx
+```
