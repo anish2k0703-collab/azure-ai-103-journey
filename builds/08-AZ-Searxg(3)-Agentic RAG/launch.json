@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python Debugger: AI-103 Build 08",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/ai_103_python_build_8.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "python": "${workspaceFolder}/tutorials/bin/python",
+      "env": {
+        "AZURE_OPENAI_ENDPOINT": "https://anish0703build8.services.ai.azure.com/openai/v1",
+        "LLM_MODEL_DEPLOYMENT_NAME": "anish0703build8-llm-deploy",
+        "SLM_MODEL_DEPLOYMENT_NAME": "anish0703build8-slm-deploy",
+        "EMBEDDING_MODEL_DEPLOYMENT_NAME": "anish0703build8-embedding-deploy",
+        "CONTENT_SAFETY_ENDPOINT": "https://anish0703build8-csafety.cognitiveservices.azure.com/",
+        "AI_SEARCH_SERVICE_ENDPOINT": "https://anish0703build8-aisearch.search.windows.net",
+        "USER_NAME": "Bobby",
+        "USER_ROLE": "Customer"
+      }
+    }
+  ]
+}
